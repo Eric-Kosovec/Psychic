@@ -8,8 +8,12 @@ from bisect import bisect_left
 
 from chardet.universaldetector import UniversalDetector
 
-# Scans source code for file paths, network identifiers (ips and addresses)
-# Image EXIF, video
+# TODO MAKE MORE MODULAR FOR EASY ADDITIONS OF DIFFERENT LANGUAGES
+# TODO SCAN BUILD TOOL/IDE ARTIFACTS
+# TODO EXIF DATA SUPPORT
+
+
+# Scans source code for file paths, network identifiers (ips and addresses), emails
 # For use in identifying possible authors
 # Comment parsing - language used
 
