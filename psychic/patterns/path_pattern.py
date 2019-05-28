@@ -1,6 +1,6 @@
 import re
 
-from patterns.pattern import Pattern
+from psychic.patterns.pattern import Pattern
 
 PATH_PATTERN = r"""
             (([A-Za-z]:)?(\\\w+\w+)+) |
@@ -11,4 +11,4 @@ PATH_PATTERN = r"""
 class PathPattern(Pattern):
 
     def __init__(self):
-        super().__init__(PATH_PATTERN, re.VERBOSE)
+        super().__init__(PATH_PATTERN, re.VERBOSE, 'File Path')
