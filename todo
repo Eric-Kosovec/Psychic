@@ -1,3 +1,0 @@
-- Handle encodings on non-text files
-- Allow for custom rules vs executable files and dlls etc. for country or APT group attribution
-- Maybe custom regexes instead of YARA rules too
